@@ -11,6 +11,15 @@
 				background-image:url('https://www.ccam.org.cn/CN/static/img/173.jpg');
 				background-size: cover;
 			}
+			p{
+        font-size:15px;
+        text-indent:2em;
+      	text-align:left;
+      }
+	  .links{
+        margin-top:50px;
+      	line-height:50px;
+      }
 			#main{
 				width:100%;
 				height:100%;
@@ -87,9 +96,10 @@
 			}
 			#container {
             position: relative;
-            width: 550px;
-            height: 252px;
-            border: 3px solid #333;
+			width:280px;
+			height: 185px;
+			border-radius: 5px;
+           
             overflow: hidden;
         }
         #list {
@@ -127,105 +137,92 @@
         #next {
             right: 20px;
         }
+		
+		#content1{
+			width: 390px;
+			height: 260px;
+			position: relative;
+			overflow: hidden;
+		}
+		#content1 img{
+			position: absolute;
+			width:280px;
+			height: 185px;
+			border-radius: 5px;
+			transition: all 0.5s ease;
+			cursor: pointer;
+		}
+		#imgOne{
+			left: 0px;
+		}
+		#imgTwo{
+			left:-390px;
+		}
+		.content2{
+        
+		text-align: center;
+      }
+	  .image_list{
+	    text-align:center;
+      	margin-top:10%;
+      }
+      .image_list img{
+	    width:300px;
+		height: 200px;
+      	opacity:0.7;
+      }
+      .image_list img:hover{
+      	opacity:1;
+      }
+	  #bg{
+      	position:absolute;
+      	top:0px;
+      	left:0px;
+      	
+      	background-color:#000000;
+	    width:100%;
+      	height:100%;
+      	
+      	background-repeat:no-repeat;
+      	background-position:center;
+      	background-size:80% auto;
+      	
+      	display:none;
+      }
+      .close_btn{
+	    position:absolute;
+      	top:30px;
+      	right:30px;
+      	cursor:pointer;
+      	
+      	display:none;
+      }
+	
 		</style>
 	</head>
 	<body>
 		<div id="main">
-			<div id="header">
-				<div id="header_center">
-					<img src="https://www.ccam.org.cn/CN/static/img/11.png" alt>
-					<div id="header_center_right">
-						<div>
-							<img src="https://img95.699pic.com/xsj/18/tt/td.jpg%21/fh/300" alt>
-							<span>经典国漫</span>
-						</div>
-						<div>
-							<img src="https://img1.baidu.com/it/u=3559710718,627039219&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500" alt>
-							<span>常见问题</span>
-						</div>
-					</div>
-				</div>
-			</div>
+			
 
-			<div id="cont">
-				<div id="content" style="">公告：亲爱的国漫爱好者! 由于机房线路调整，A大厅将于2023年5月20日凌晨0:00~6:00（周一）进行维护，很抱歉带来这些不便，感谢您对我们的支持。</div>
-			</div>
-		
-				
 			
-			<div id="link">
-				<div>
-					<img src="https://img1.baidu.com/it/u=1567722230,1210404242&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=888" alt>
-				</div>
-				<div>
-					<img src="https://img1.baidu.com/it/u=1076114251,3800368428&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=370" alt>
-				</div>
-				<div>
-					<img src="https://img1.baidu.com/it/u=3085677715,3100120262&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=800" alt>
-				</div>
-				<div>
-					<img src="https://img0.baidu.com/it/u=2068141504,3481387720&fm=253&fmt=auto&app=138&f=JPEG?w=499&h=280" alt>
-				</div>
-				<div>
-					<img src="https://img1.baidu.com/it/u=1534953043,3662213053&fm=253&fmt=auto&app=138&f=JPEG?w=400&h=575" alt>
-				</div>
-				<div>
-					<img src="https://www.ccam.org.cn/public/collection/s_20210528152229.jpg" alt>
-				</div>
-				<div>
-					<img src="https://www.ccam.org.cn/public/collection/s_20210528152759.jpg" alt>
-				</div>
-				<div>
-					<img src="https://www.ccam.org.cn/public/collection/s_20210528153625.jpg" alt>
-				</div>
-				<div id="container">
-					<div id="list" style="left:0px;">
-						<img src="https://www.ccam.org.cn/public/collection/s_20210528152759.jpg">
-						<img src="https://www.ccam.org.cn/public/collection/s_20210528152229.jpg">
-					</div>
-					
-					<span id="prev" class="arrow" onclick="last()">《 </span>
-					<span id="next" class="arrow" onclick="next()"> 》</span>
-				</div>
-			</div>
+			
+		<div class="content2">
+			<p>中国动漫博物馆位于杭州市滨江区白马湖路375号，是国家广电总局和中国动画学会批准的“国字号”动漫博物馆，隶属于中共杭州市委宣传部，为公益一类事业单位。</p>
+			<p>动漫博物馆积极与知名动漫机构和动漫专家接洽，并向全社会征集藏品。国内著名动画艺术家严定宪、林文肖、曲建方、蔡渊澜、周克勤、阎善春，日本著名漫画家尾田荣一郎，香港著名漫画家黄玉郎，以及香港漫画协会等代表向中国动漫博物馆捐赠近百件藏品。此外，上世纪七八十年代国产动画片《大闹天宫》、《阿凡提》的珍贵原稿，也被收藏进动漫博物馆。</p>
+			<p>从6个蘑菇到1朵祥云
+				原先的博物馆方案是6个大小不一、紧挨着的蘑菇形建筑群，由荷兰建筑师设计，看看很好看，但管委会说，做起来很难，而且最关键的是，由于大量的空间都“悬空”集中在上部，下面只有几根“蘑菇”柱子，在消防安全上，也过不了关，万一发生火灾等事故，逃生通道不够。所以，最后经专家审议，蘑菇方案被放弃。 [1]
+				这座经国家广播电视总局批准的首家“国字号”动漫博物馆，主体建筑面积30382平方米，建筑外形宛若一朵白色的“祥云”。</p>
 		</div>
-		<script type="text/javascript">
-      
-			var left = 500;// content的左边距
+			<div class="image_list">
+			<img src="https://img.zcool.cn/community/0170a45ce81920a80121a470c4c7f9.jpg@1280w_1l_2o_100sh.jpg" title="点击查看大图">
+			<img src="https://img1.baidu.com/it/u=552872971,1424799337&fm=253&fmt=auto&app=138&f=JPEG?w=750&h=500" title="点击查看大图"><br>
+			<img src="https://img1.baidu.com/it/u=2536901496,3881396360&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500" title="点击查看大图">
+			<img src="https://img2.baidu.com/it/u=2945699585,1203313225&fm=253&fmt=auto&app=138&f=JPG?w=500&h=294" title="点击查看大图">
 			
-			function move(){
-			  document.getElementById("content").style.left = left+"px";
-			  left-=1;
-			   
-			  //文字移出显示区域，重置左边距
-			  if(left <= -1000){
-					left = 500;
-			  }
-			  //帧频：每秒60帧，每隔16.66毫秒执行一次
-			  window.requestAnimationFrame(move);
-			}
-			move();
-		  
-		  </script>
-		  <script>
-            var list = document.getElementById('list');
-            
-            //上一个
-            function last() {    
-                var newleft = parseInt(list.style.left) + 550;
-                list.style.left = newleft + "px";
-                if(newleft > 0){
-                    list.style.left = -550 + "px";
-                }
-            }
-            //下一个
-            function next() {  
-                var newleft = parseInt(list.style.left) - 550;
-                list.style.left = newleft + "px";
-                if(newleft < -550){
-                    list.style.left = 0 + "px";
-                }
-            }
-	</script>
+		  </div>
+			
+			
+		
+	
 	</body>
 </html>
